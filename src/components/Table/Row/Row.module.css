@@ -1,0 +1,20 @@
+.username {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--blue);
+  }
+  
+  .email,
+  .date,
+  .rating {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--font-color);
+  }
+  
+  .delete img {
+    cursor: pointer;
+  }
+  

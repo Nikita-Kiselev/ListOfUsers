@@ -1,0 +1,55 @@
+.sortingSection {
+  display: flex;
+  margin-top: 72px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 14px;
+  color: var(--table-names-color);
+}
+.sortingSection div {
+  margin-left: 8px;
+  cursor: pointer;
+}
+.table {
+  background: var(--background-color);
+  width: 100%;
+  border-radius: 7px;
+}
+.table td,
+th {
+  text-align: left;
+  padding-left: 16px;
+  padding-bottom: 22px;
+}
+.table td {
+  padding-top: 14px;
+  padding-bottom: 20px;
+  border-top: 1px solid #f7f7f7;
+}
+.table th {
+  padding-top: 16px;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 14px;
+  color: var(--table-names-color);
+}
+/* .username {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--blue);
+}
+
+.email,
+.date,
+.rating {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--font-color);
+}
+
+.delete img {
+  cursor: pointer;
+} */
